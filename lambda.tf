@@ -1,6 +1,6 @@
 # Create a Lambda function
 resource "aws_lambda_function" "message_new_lambda_function" {
-  filename      = "./lambda.js"
+  filename      = "lambda.zip"
   function_name = "message-new"
   role          = aws_iam_role.message_new_lambda_role.arn
   handler       = "index.handler"
