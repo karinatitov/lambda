@@ -19,7 +19,7 @@ This Terraform code creates the AWS infrastructure needed to deploy the message-
 The following variables can be customized by creating a terraform.tfvars file:
 
 - region: The AWS region where the resources will be created. Default is us-east-1.
-- lambda_function_filename: The name of the ZIP file containing the function code. Default is message_new_lambda_function.zip.
+- lambda_function_filename: The name of the ZIP file containing the function code. Default is lambda.zip.
 
 #Outputs
 The following outputs are available after running terraform apply:
